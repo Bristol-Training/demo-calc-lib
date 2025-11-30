@@ -1,7 +1,12 @@
 # GitHub Practical - Calculator Library
 
 
-A simple Python calculator library for practicing GitHub workflows, team collaboration, automated testing, and continuous integration.
+A simple Python calculator library for practicing GitHub workflows, team collaboration, automated testing, and continuous integration. The calculator library provides four basic operations:
+
+- `add(a, b)` - Returns the sum of a and b
+- `subtract(a, b)` - Returns a minus b
+- `multiply(a, b)` - Returns the product of a and b
+- `divide(a, b)` - Returns a divided by b (raises ValueError if b is zero)
 
 ## Project Files
 
@@ -49,14 +54,6 @@ result = add(5, 3)
 print(result)  # Output: 8
 ```
 
-## Calculator Functions
-
-The calculator library provides four basic operations:
-
-- `add(a, b)` - Returns the sum of a and b
-- `subtract(a, b)` - Returns a minus b
-- `multiply(a, b)` - Returns the product of a and b
-- `divide(a, b)` - Returns a divided by b (raises ValueError if b is zero)
 
 ## Testing
 
