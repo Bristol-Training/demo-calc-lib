@@ -21,26 +21,16 @@ A simple Python calculator library for practicing GitHub workflows, team collabo
 
 Install testing dependencies using your preferred package manager:
 
-::: {.panel-tabset}
-
-## pip
 ```bash
 # Using pip (built-in with Python)
 pip install pytest pytest-cov
-```
 
-## conda
-```bash
 # Using conda (recommended for data science)
 conda install pytest pytest-cov
-```
 
-## uv
-```bash
 # Using uv (fast, modern alternative)
 uv pip install pytest pytest-cov
 ```
-:::
 
 #### Usage
 

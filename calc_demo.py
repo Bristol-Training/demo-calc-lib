@@ -1,7 +1,7 @@
 """
 Demo script showing how to use the calculator library.
 
-Pau Erola, 2025
+© 2025 Pau Erola, University of Bristol
 """
 
 from calc_lib import add, subtract, multiply, divide
