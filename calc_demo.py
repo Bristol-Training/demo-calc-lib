@@ -24,7 +24,7 @@ result = divide(10, 5)
 print(f"10 ÷ 5 = {result}")
 
 # Power
-result = power_function(25,0.5)
+result = power(25,0.5)
 print(f"25 ^ 0.5 = {result}")    
 
 print("=" * 40)
