@@ -28,3 +28,8 @@ def power_function(a,b):
     """THE NEW FUNCTION... Power a^b"""
     return a**b
 
+def calculate_total(items):
+    total = sum(item.price * 1.2 for item in items)  # With 20% tax
+    return total
+
+
