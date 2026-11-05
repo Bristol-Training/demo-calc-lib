@@ -28,12 +28,12 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero")
     return a / b
 
-
-def power(a, b):
+def power(a,b):
     """THE NEW FUNCTION... Power a^b"""
     return a**b
 
-
 def calculate_total(items):
-    total = sum(item.price * 1.15 for item in items)  # With 15% tax
+    total = sum(item.price * 1.2 for item in items)  # With 20% tax
     return total
+
+
