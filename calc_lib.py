@@ -22,7 +22,7 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero")
     return a / b
 
-def power(a,b):
+def power_renaming_it(a,b):
     """THIS IS A NEW FUNCTION... Power a^b"""
     return a**b
 
